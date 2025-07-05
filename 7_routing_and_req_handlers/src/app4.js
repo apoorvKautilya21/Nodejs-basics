@@ -3,6 +3,7 @@ const express = require("express");
 const server = express();
 
 server.use('/user', (req, res) => {
+  console.log(req.query);
   res.send({greeting: "P1"});
 });
 
@@ -16,6 +17,13 @@ server.post('/user', (req, res) => {
 
 server.delete('/user', (req, res) => {
   res.send({greeting: "P5"});
+});
+
+server.get('/test/:id/:name', (req, res) => {
+  console.log(req.params);
+  // /test/123/john
+  // { id: '123', name: 'john' }
+  res.send({greeting: "P4"});
 });
 
 server.listen(3003, () => {
