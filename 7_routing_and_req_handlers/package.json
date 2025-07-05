@@ -1,0 +1,22 @@
+{
+  "name": "7_routing_and_req_handlers",
+  "version": "1.0.0",
+  "description": "Routing and req handlers tut",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "dev2": "nodemon src/app2.js",
+    "dev3": "nodemon src/app3.js",
+    "dev4": "nodemon src/app4.js"
+  },
+  "keywords": [
+    "JS",
+    "NodeJs"
+  ],
+  "author": "Apoorv kautilya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
