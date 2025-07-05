@@ -1,0 +1,19 @@
+{
+  "name": "6_express_server",
+  "version": "1.0.0",
+  "description": "Some description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Apoorv kautilya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
